@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: blue;
+    width: 100%;
+    height: 40em;
+}
+.header img{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+
+/* upper navigation bar start */
+.upperside{
+    width: 100%;
+    height: 10em;
+    display: flex;
+}
+.up-left{
+    width: 45%;
+    height: 100%;
+}
+.up-left img{
+    width: 8em;
+    height: 7em;
+    margin-left: 10em;
+    background-color: blue;
+    opacity: 0.9;
+}
+.up-left h4{
+    margin-left: 11em;
+    margin-top: 0px;
+    color: white;
+}
+.up-right{
+    width: 50%;
+    height: 8em;
+    margin-top: 8px;
+}
+.up-right a{
+    color: white;
+    margin-left: 10px;
+    padding: 5px ;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.up-right a:hover{
+    color: bisque;
+    background-color: blueviolet;
+    box-shadow: 3px 3px;
+    border-radius: 8px;
+    transform: scale(1);
+    transition: 0.7s;
+}
+#act{
+    text-decoration: underline;
+}
+/* upper navigation bar end */
+
+
+
+/* Lower navigation bar start */
+.lowerside{
+    margin: 10px;
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+
+    height: 40em;
+    
+}
+.low-left{
+    width: 50%;
+    height: auto;
+    margin: 30px;
+}
+.low-left ul{
+
+}
+.low-left li{
+    color: white;
+}
+.low-left h1{
+    color: white;
+    font-size: xxx-large;
+    text-transform: uppercase;
+}
+
+.low-left i:hover{
+    transform: scale(1.4);
+    transition: 0.6s;
+
+}
+
+.low-left p{
+    color: white;
+    font-size: smaller;
+
+}
+.low-left i{
+    color: white;
+    align-items: center;
+}
+.fa-sharp{
+    margin-left: 5em;
+    height: 10px;
+    
+}
+
+/* low-right  */
+.low-right{
+    width: 40%;
+    margin-left: 10px;
+
+}
+.low-right img{
+    width: 15em;
+    height: 25em;
+    opacity: 1;
+    border-radius: 35px;
+}
+
+.low-right img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+.thin-right{
+    color: white;
+    font-size:x-large;
+    background-color: transparent;
+    
+    height: 3em;
+
+}
+.thin-right i{
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    margin-right: 0;
+}
+.thin-right:hover{
+    background-color: blue;
+    transform:scale(1.2);
+    transition: 0.6s;
+    cursor: pointer;
+}
+#bg{
+    margin-right: 0;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    
+}
+
+/* Lower navigation bar end */
+
+
+
+/* home start */
+
+.home{
+    width: 100%;
+    height: 5em;
+    margin-top: 2em;
+}
+.home h1{
+    font-size: xx-large;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.home p{
+    text-align: center;
+
+}
+
+/* home end */
+
+
+/* footer start */
+footer{
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 0px;
+    background-color: rgb(220, 200, 200);
+}
+footer p{
+    margin: 10px;
+    padding: 5px; 
+    
+}
+
+
+
+/* footer end */
